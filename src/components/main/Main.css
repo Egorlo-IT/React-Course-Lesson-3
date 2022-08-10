@@ -1,0 +1,80 @@
+.main {
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url(../../image/bckg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  padding: 20px 25% 20px;
+}
+.main-container {
+  display: flex !important;
+}
+
+.chat-list {
+  width: 500px ;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.box {
+  padding: 30px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.text {
+  font-size: calc(2vmin + 10px);
+  letter-spacing: 2px;
+  color: #7c5b70;
+}
+
+.input {
+  margin-bottom: 10px !important;
+  background-color: #fff;
+}
+
+.btn-submit {
+  display: flex;
+  background-color: #7c5b70;
+  border: 2px solid #7c5b70;
+  border-radius: 15px;
+  outline-color: #7c5b70;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.css-10hburv-MuiTypography-root {
+  color: #7c5b70;
+  font-weight: 500 !important;
+  letter-spacing: 5px;
+}
+
+.css-konndc-MuiListItemText-root {
+  min-width: 140px !important;
+}
+
+@media (max-width: 1024px) {
+  .main {
+    justify-content: center;
+    padding: 20px;
+  }
+  .form {
+    width: unset;
+  }
+}
